@@ -1,0 +1,14 @@
+.background {
+    background-color: pink !important;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black !important;
+}
+
+a:hover {
+    color: grey !important;
+    font-style: italic !important;
+}
