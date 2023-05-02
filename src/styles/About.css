@@ -2,3 +2,12 @@
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
 }
+
+.bioPics {
+    width: 400px;
+    height: 650px;
+}
+
+.bio {
+    font-size: 25px;
+}
