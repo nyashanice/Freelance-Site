@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../styles/Header.css";
@@ -21,13 +20,6 @@ export default function Header() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link to="/about" style={{ textDecoration: "none" }}>
-                  About Me
-                </Link>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link>
                 <Link to="/work" style={{ textDecoration: "none" }}>
                   My Work
                 </Link>
@@ -42,7 +34,10 @@ export default function Header() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link to="/booking" style={{ textDecoration: "none" }}>
+                <Link
+                  to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM"
+                  style={{ textDecoration: "none" }}
+                >
                   Book
                 </Link>
               </Nav.Link>

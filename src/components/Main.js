@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Main.css";
 import About from "./About";
-import Work from "./Work";
-import Services from "./Services";
-import Booking from "./Booking";
+
 
 export default function Main() {
   return (
@@ -17,9 +15,6 @@ export default function Main() {
         </div>
       </div>
       <About />
-      <Work />
-      <Services />
-      <Booking />
     </div>
   );
 }
