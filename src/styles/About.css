@@ -7,7 +7,7 @@
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    box-shadow: 5px 5px #FFCF51;
+    box-shadow: 10px 5px #FFF700;
 }
 
 .bio {
@@ -17,4 +17,8 @@
 .about-title {
         font-family: 'Kreon', serif;
         font-size: 30px;
+}
+
+.about-background {
+    background-color: #FFF700;
 }
