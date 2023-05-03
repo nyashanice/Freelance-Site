@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Main.css";
 import About from "./About";
-
+import Benefits from "./Benefits";
 
 export default function Main() {
   return (
@@ -14,6 +14,7 @@ export default function Main() {
           based businesses
         </div>
       </div>
+      <Benefits />
       <About />
     </div>
   );
