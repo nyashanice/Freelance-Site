@@ -9,5 +9,6 @@
 }
 
 .main {
-    background-image: url('../../public/images/background.jpg');
+    /* background-image: url('../../public/images/background.jpg'); */
+    background-color: #FFD1EC;
 }

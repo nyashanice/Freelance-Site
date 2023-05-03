@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div>
       <div>
-        <h1 className="text-center m-3">About Me</h1>
+        <h1 className="text-center m-3 about-title">About Me</h1>
         <div className="body d-flex flex-row m-3">
           <div>
-            <img className="bioPics" src="../images/bio.png" alt=""></img>
+            <img className="bio-pic m-2" src="../images/bio.png" alt=""></img>
           </div>
           <div className="bio">
             <div className="p-2">
