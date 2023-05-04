@@ -1,3 +1,8 @@
 .tier {
     background-color: #AAF0D1 !important;
+    font-family: 'Alice', serif;
+}
+
+.service-list {
+    font-family: 'Urbanist', sans-serif;
 }

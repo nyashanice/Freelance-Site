@@ -6,7 +6,7 @@ import "../styles/Header.css";
 
 export default function Header() {
   return (
-    <header className="background">
+    <header className="background p-2">
       <Navbar variant="light" expand="sm">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -15,6 +15,13 @@ export default function Header() {
               <Nav.Link>
                 <Link to="/" style={{ textDecoration: "none" }}>
                   Home
+                </Link>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link>
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                  About
                 </Link>
               </Nav.Link>
             </Nav.Item>
