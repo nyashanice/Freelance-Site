@@ -42,7 +42,7 @@ export default function Header() {
             <Nav.Item>
               <Nav.Link>
                 <Link
-                  to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM"
+                  to="/book"
                   style={{ textDecoration: "none" }}
                 >
                   Book
