@@ -4,5 +4,10 @@
 }
 
 .service-list {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.services-btn {
+    background-color: #AAF0D1 !important;
+    font-family: "Lato", sans-serif;
 }
