@@ -1,0 +1,22 @@
+.work-title {
+    font-family: "Alice", serif;
+}
+
+.card-header {
+    font-family: "Alice", serif;
+}
+
+.card-text {
+    font-family: "Lato", sans-serif;
+}
+
+.card-btn {
+    font-family: "Lato", sans-serif !important;
+    background-color: #AAF0D1 !important;
+    color: black !important;
+}
+
+.card-btn:hover {
+    color: #fffdd0 !important;
+    font-style: italic;
+}
