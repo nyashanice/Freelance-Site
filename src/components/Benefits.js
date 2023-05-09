@@ -16,7 +16,8 @@ export default function Benefits() {
           </li>
           <li className="p-2">
             CUSTOMIZATION : Your website will be completely customizable as I
-            construct my projects using HTML, CSS, JavaScript, and ReactJS.
+            construct my projects using HTML, CSS, JavaScript, Bootstrap, and
+            ReactJS.
           </li>
           <li className="p-2">
             COMMUNICATION : Being able to communicate with another person can be

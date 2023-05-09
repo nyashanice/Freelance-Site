@@ -8,13 +8,6 @@ import { Button } from "react-bootstrap";
 export default function Main() {
   return (
     <div>
-      <div className="main p-5">
-        <div className="title text-center">Hey! My name is Nya Shanice.</div>
-        <div className="subtitle text-center">
-          web developer (web di-'ve-lə-pər) : creating websites for service
-          based businesses and brands
-        </div>
-      </div>
       <Banner />
       <Benefits />
       <div className="d-flex justify-content-center">

@@ -39,13 +39,12 @@ export default function About() {
         <div className="info m-4">
           <div className="about-title text-center">MISSION</div>
           <div className="body p-3">
-            My mission is to empower beauty and travel entrepreneurs with
-            captivating web experiences. I combine creativity, attention to
-            detail, and continuous learning to craft authentic and responsive
-            websites that leave a lasting impression. By finding unique ways to
-            attract and engage users, I aim to expand my creativity and deliver
-            positive experiences that help my clients thrive in the digital
-            world.
+            My mission is to empower entrepreneurs with captivating web
+            experiences. I combine creativity, attention to detail, and
+            continuous learning to craft authentic and responsive websites that
+            leave a lasting impression. By finding unique ways to attract and
+            engage users, I aim to expand my creativity and deliver positive
+            experiences that help my clients thrive in the digital world.
           </div>
         </div>
       </div>
@@ -96,6 +95,10 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <h1 className="text-center m-3 about-title">My favorite...</h1>
+        <img src="../images/faves.png" alt="" style={{ width: "100%" }} />
       </div>
     </div>
   );

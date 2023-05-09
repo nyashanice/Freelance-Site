@@ -1,13 +1,9 @@
-.benefits-background {
-    background-color: #FFCF51;
-}
-
 .benefits-header{
-    font-family: 'Kreon', serif;
+    font-family: 'Alice', serif;
     font-size: 30px;
 }
 
 .benefits-text {
     font-size: 20px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lato', sans-serif;
 }

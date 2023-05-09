@@ -26,7 +26,7 @@ export default function Services() {
             <ListGroup.Item>7-day delivery</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Link to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM">
+            <Link to="/book">
               <Button className="tier btn-outline-dark">Book now</Button>
             </Link>
           </Card.Body>
@@ -51,7 +51,7 @@ export default function Services() {
             <ListGroup.Item>10-day delivery</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Link to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM">
+            <Link to="/book">
               <Button className="tier btn-outline-dark">Book now</Button>
             </Link>
           </Card.Body>
@@ -76,7 +76,7 @@ export default function Services() {
             <ListGroup.Item>14-day delivery</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Link to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM">
+            <Link to="/book">
               <Button className="tier btn-outline-dark">Book now</Button>
             </Link>
           </Card.Body>
