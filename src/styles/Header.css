@@ -1,6 +1,6 @@
 .background {
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 a {
@@ -11,4 +11,8 @@ a {
 a:hover {
     color: #f8ad9d !important;
     font-style: italic !important;
+}
+
+.logo {
+    justify-content: start;
 }

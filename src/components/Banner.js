@@ -7,8 +7,6 @@ export default function Banner() {
         src="../images/banner.gif"
         width="100%"
         height="500"
-        controls="controls"
-        autoplay="true"
         alt=""
       />
     </div>

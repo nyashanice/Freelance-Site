@@ -10,7 +10,7 @@ export default function Main() {
     <div>
       <Banner />
       <Benefits />
-      <div className="d-flex justify-content-center">
+      {/* <div className="d-flex justify-content-center">
         <Link to="/work">
           <Button className="tier btn-outline-dark btn-lg portfolio-button">
             Check out my work!
@@ -21,7 +21,7 @@ export default function Main() {
         <Link to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM">
           <Button className="tier btn-outline-dark btn-lg">Book now</Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

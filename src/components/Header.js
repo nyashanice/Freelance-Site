@@ -6,11 +6,19 @@ import "../styles/Header.css";
 
 export default function Header() {
   return (
-    <header className="background p-2">
+    <header className="p-2">
       <Navbar variant="light" expand="sm">
+        <Navbar.Brand>
+          <img
+            src="../images/tfp_logo.png"
+            alt=""
+            style={{ width: "300px", height: "100px" }}
+            className="logo"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
+          <Nav className="background">
             <Nav.Item>
               <Nav.Link>
                 <Link to="/" style={{ textDecoration: "none" }}>
@@ -41,10 +49,7 @@ export default function Header() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link
-                  to="/book"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link to="/book" style={{ textDecoration: "none" }}>
                   Book
                 </Link>
               </Nav.Link>
