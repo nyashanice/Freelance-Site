@@ -48,7 +48,7 @@ export default function Footer() {
           />
         </Link>
       </div>
-      <div className="text-center footer-verse">John 15:5</div>
+      <div className="text-center footer-verse">1 Corinthians 15:58</div>
     </div>
   );
 }

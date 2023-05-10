@@ -16,3 +16,11 @@
     color: #fffdd0 !important;
     font-style: italic;
 }
+
+.services-header {
+    font-family: 'Alice', serif;
+}
+
+.services-text {
+    font-family: "Lato", sans-serif;
+}
