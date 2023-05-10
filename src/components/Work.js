@@ -25,9 +25,15 @@ export default function Work() {
               <Card.Text className="card-text">
                 Created with: ReactJS, CSS, Bootstrap
               </Card.Text>
-              <Button variant="outline-dark" className="card-btn">
-                Visit site
-              </Button>
+              <Link
+                to="https://nyashanice.github.io/Beauty-Brand/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-dark" className="card-btn">
+                  Visit site
+                </Button>
+              </Link>
             </Card.Body>
           </Card>
           <Card style={{ width: "28rem" }} className="m-3">
@@ -46,9 +52,15 @@ export default function Work() {
               <Card.Text className="card-text">
                 Created with: ReactJS, CSS, Bootstrap
               </Card.Text>
-              <Button variant="outline-dark" className="card-btn">
-                Visit site
-              </Button>
+              <Link
+                to="https://nyashanice.github.io/Youth-Football-Camp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-dark" className="card-btn">
+                  Visit site
+                </Button>
+              </Link>
             </Card.Body>
           </Card>
         </div>
@@ -68,9 +80,15 @@ export default function Work() {
               <Card.Text className="card-text">
                 Created with: ReactJS, CSS, Bootstrap
               </Card.Text>
-              <Button variant="outline-dark" className="card-btn">
-                Visit site
-              </Button>
+              <Link
+                to="https://nyashanice.github.io/Fast-Twitch-Frenzy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-dark" className="card-btn">
+                  Visit site
+                </Button>
+              </Link>
             </Card.Body>
           </Card>
           <Card style={{ width: "28rem" }} className="m-3">
@@ -89,9 +107,15 @@ export default function Work() {
               <Card.Text className="card-text">
                 Created with: ReactJS, CSS, Bootstrap
               </Card.Text>
-              <Button variant="outline-dark" className="card-btn">
-                Visit site
-              </Button>
+              <Link
+                to="https://nyashanice.github.io/Travel-Agent-Site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-dark" className="card-btn">
+                  Visit site
+                </Button>
+              </Link>
             </Card.Body>
           </Card>
         </div>
