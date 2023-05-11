@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.65a538b5.css",
+    "main.css": "/static/css/main.50188923.css",
     "main.js": "/static/js/main.f200450b.js",
     "static/js/787.50f62861.chunk.js": "/static/js/787.50f62861.chunk.js",
     "static/media/Flowers-Sunday-BF641cdd3326a9d.otf": "/static/media/Flowers-Sunday-BF641cdd3326a9d.7cf60886fd157140bbd4.otf",
     "index.html": "/index.html",
-    "main.65a538b5.css.map": "/static/css/main.65a538b5.css.map",
+    "main.50188923.css.map": "/static/css/main.50188923.css.map",
     "main.f200450b.js.map": "/static/js/main.f200450b.js.map",
     "787.50f62861.chunk.js.map": "/static/js/787.50f62861.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a538b5.css",
+    "static/css/main.50188923.css",
     "static/js/main.f200450b.js"
   ]
 }
