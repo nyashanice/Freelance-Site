@@ -16,9 +16,9 @@ export default function Services() {
         If you have a question about something, please feel free to email me!
       </div>
       <Container className="text-center">
-        <Row className="mb-5">
+        <Row>
           <Col>
-            <Card style={{ height: "65vh" }}>
+            <Card style={{ height: "65vh" }} className="services-card mb-5">
               <Card.Header as="h1" className="tier">
                 BASIC
               </Card.Header>
@@ -44,7 +44,7 @@ export default function Services() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ height: "65vh" }}>
+            <Card style={{ height: "65vh" }} className="services-card mb-5">
               <Card.Header as="h1" className="tier">
                 STANDARD
               </Card.Header>
@@ -71,7 +71,7 @@ export default function Services() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ height: "65vh" }}>
+            <Card style={{ height: "65vh" }} className="services-card mb-5">
               <Card.Header as="h1" className="tier">
                 PREMIUM
               </Card.Header>

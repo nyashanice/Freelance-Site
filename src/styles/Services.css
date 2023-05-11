@@ -25,3 +25,21 @@
     font-family: "Lato", sans-serif;
     font-size: 20px;
 }
+
+@media screen and (min-width: 2000px) {
+    .service-list {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1023px) {
+    .services-card {
+        height: 70vh !important;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .services-card {
+        height: 80vh !important;
+    }
+}

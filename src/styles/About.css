@@ -27,3 +27,47 @@
     background-color: #fffdd0;
     box-shadow: 10px 10px #aaf0d1;
 }
+
+.sm-img {
+    display: none;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1023px){
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+  .vis-mis {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.body {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-title {
+    font-size: 20px;
+}
+.bio-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.bio {
+    font-size: 15px;
+}
+.md-img {
+    display: none;
+}
+
+.sm-img {
+    display: block;
+}
+}

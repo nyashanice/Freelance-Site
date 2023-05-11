@@ -7,7 +7,7 @@ export default function About() {
       <div className="text-center about-title m-5">
         "Transforming Dreams into Digital Reality"
       </div>
-      <div className="info m-5">
+      <div className="info m-4">
         <div className="about-title text-center">PURPOSE</div>
         <div className="body p-3">
           My purpose is to bring creativity, professionalism, and an authentic
@@ -25,7 +25,7 @@ export default function About() {
           vision to life.
         </div>
       </div>
-      <div className="d-flex flex-row">
+      <div className="vis-mis d-flex flex-row">
         <div className="info m-4">
           <div className="about-title text-center">VISION</div>
           <div className="body p-3">
@@ -98,7 +98,18 @@ export default function About() {
       </div>
       <div>
         <h1 className="text-center m-3 about-title">My favorite...</h1>
-        <img src="../images/faves.png" alt="" style={{ width: "100%" }} />
+        <img
+          className="md-img"
+          src="../images/faves.png"
+          alt=""
+          style={{ width: "100%" }}
+        />
+        <img
+          className="sm-img"
+          src="../images/faves-sm.png"
+          alt=""
+          style={{ width: "100%" }}
+        />
       </div>
     </div>
   );

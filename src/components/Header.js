@@ -7,7 +7,7 @@ import "../styles/Header.css";
 export default function Header() {
   return (
     <header className="p-2">
-      <Navbar variant="light" expand="sm">
+      <Navbar variant="light" expand="md">
         <Navbar.Brand>
           <img
             src="../images/tfp_logo.png"

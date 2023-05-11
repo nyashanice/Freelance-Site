@@ -9,12 +9,12 @@ export default function Work() {
     <div>
       <h1 className="text-center p-2 work-title">EXAMPLE WORK</h1>
       <div className="d-flex flex-wrap justify-content-center">
-        <div className="d-flex flex-row">
-          <Card style={{ width: "28rem" }} className="m-3">
+        <div className="row d-flex flex-row">
+          <Card className="work-card m-1 m-md-3">
             <Card.Img
               variant="top"
-              style={{ width: "28rem", height: "19rem" }}
               src="../images/flower.jpg"
+              className="card-img"
             />
             <Card.Body>
               <Card.Title>Beauty Brand</Card.Title>
@@ -36,11 +36,11 @@ export default function Work() {
               </Link>
             </Card.Body>
           </Card>
-          <Card style={{ width: "28rem" }} className="m-3">
+          <Card className="work-card m-1 m-md-3">
             <Card.Img
               variant="top"
-              style={{ width: "28rem", height: "19rem" }}
               src="../images/football.jpg"
+              className="card-img"
             />
             <Card.Body>
               <Card.Title>Youth Football Camp</Card.Title>
@@ -64,12 +64,12 @@ export default function Work() {
             </Card.Body>
           </Card>
         </div>
-        <div className="d-flex flex-row">
-          <Card style={{ width: "28rem" }} className="m-3">
+        <div className="row d-flex flex-row">
+          <Card className="work-card m-1 m-md-3">
             <Card.Img
               variant="top"
-              style={{ width: "28rem", height: "19rem" }}
               src="../images/weight.jpg"
+              className="card-img"
             />
             <Card.Body>
               <Card.Title>Fitness Event</Card.Title>
@@ -91,11 +91,11 @@ export default function Work() {
               </Link>
             </Card.Body>
           </Card>
-          <Card style={{ width: "28rem" }} className="m-3">
+          <Card className="work-card m-0 m-md-3">
             <Card.Img
               variant="top"
-              style={{ width: "28rem", height: "19rem" }}
               src="../images/plane.jpg"
+              className="card-img"
             />
             <Card.Body>
               <Card.Title>Travel Agent</Card.Title>
