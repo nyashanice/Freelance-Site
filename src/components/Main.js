@@ -10,18 +10,13 @@ export default function Main() {
     <div>
       <Banner />
       <Benefits />
-      {/* <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center pb-5">
         <Link to="/work">
-          <Button className="tier btn-outline-dark btn-lg portfolio-button">
+          <Button className="btn-outline-dark btn-lg cta-btn">
             Check out my work!
           </Button>
         </Link>
       </div>
-      <div className="d-flex justify-content-center p-3">
-        <Link to="https://qn1aqkbnq05.typeform.com/to/avcH5PZM">
-          <Button className="tier btn-outline-dark btn-lg">Book now</Button>
-        </Link>
-      </div> */}
     </div>
   );
 }

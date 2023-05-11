@@ -7,7 +7,7 @@ import "../styles/Work.css";
 export default function Work() {
   return (
     <div>
-      <h1 className="text-center p-2 work-title">Example Work</h1>
+      <h1 className="text-center p-2 work-title">EXAMPLE WORK</h1>
       <div className="d-flex flex-wrap justify-content-center">
         <div className="d-flex flex-row">
           <Card style={{ width: "28rem" }} className="m-3">

@@ -1,14 +1,9 @@
-.title {
-    font-family: 'Vina Sans', cursive;
-    font-size: 50px;
+.cta-btn {
+    background-color: #AAF0D1 !important;
+    font-family: "Lato", sans-serif !important;
 }
 
-.subtitle {
-    font-family: 'Kreon', serif;
-    font-size: 20px;
-}
-
-.main {
-    /* background-image: url('../../public/images/background.jpg'); */
-    background-color: #F8AD9D;
+.cta-btn:hover {
+    color: #fffdd0 !important;
+    font-style: italic;
 }

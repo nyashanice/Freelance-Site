@@ -11,7 +11,7 @@ import "../styles/Services.css";
 export default function Services() {
   return (
     <div>
-      <h1 className="text-center p-2 services-header">Services</h1>
+      <h1 className="text-center p-2 services-header">SERVICES</h1>
       <div className="text-center pb-4 services-text">
         If you have a question about something, please feel free to email me!
       </div>
