@@ -52,7 +52,26 @@ export default function About() {
         <h1 className="text-center m-3 about-title">ABOUT ME</h1>
         <div className="body d-flex flex-row m-3">
           <div>
-            <img className="bio-pic m-2" src="../images/bio.png" alt=""></img>
+            <img
+              className="bio-img-576 m-2"
+              src="../images/bio-img-576.png"
+              alt=""
+            ></img>
+            <img
+              className="bio-img-768 m-2"
+              src="../images/bio-img-768.png"
+              alt=""
+            ></img>
+            <img
+              className="bio-img-992 m-2"
+              src="../images/bio-img-992.png"
+              alt=""
+            ></img>
+            <img
+              className="bio-img-1200 m-2"
+              src="../images/bio-img-1200.png"
+              alt=""
+            ></img>
           </div>
           <div className="bio">
             <div className="p-2">
