@@ -25,7 +25,7 @@ export default function About() {
           vision to life.
         </div>
       </div>
-      <div className="vis-mis d-flex flex-row">
+      <div className="vis-mis">
         <div className="info m-4">
           <div className="about-title text-center">VISION</div>
           <div className="body p-3">
@@ -117,18 +117,10 @@ export default function About() {
       </div>
       <div>
         <h1 className="text-center m-3 about-title">My favorite...</h1>
-        <img
-          className="md-img"
-          src="../images/faves.png"
-          alt=""
-          style={{ width: "100%" }}
-        />
-        <img
-          className="sm-img"
-          src="../images/faves-sm.png"
-          alt=""
-          style={{ width: "100%" }}
-        />
+        <img className="faves-576" src="../images/faves-576.png" alt="" />
+        <img className="faves-768" src="../images/faves-768.png" alt="" />
+        <img className="faves-992" src="../images/faves-992.png" alt="" />
+        <img className="faves-1200" src="../images/faves-1200.png" alt="" />
       </div>
     </div>
   );
