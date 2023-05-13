@@ -8,8 +8,8 @@ export default function Work() {
   return (
     <div>
       <h1 className="text-center p-2 work-title">EXAMPLE WORK</h1>
-      <div className="d-flex flex-wrap justify-content-center">
-        <div className="row d-flex flex-row">
+      <div className="container d-flex flex-wrap justify-content-center">
+        <div className="row">
           <Card className="work-card m-1 m-md-3">
             <Card.Img
               variant="top"
@@ -17,7 +17,7 @@ export default function Work() {
               className="card-img"
             />
             <Card.Body>
-              <Card.Title>Beauty Brand</Card.Title>
+              <Card.Title className="card-header">Beauty Brand</Card.Title>
               <Card.Text className="card-text">
                 This website showcases the information on a hairstylist and is
                 designed to have a place for products and booking information.
@@ -43,7 +43,9 @@ export default function Work() {
               className="card-img"
             />
             <Card.Body>
-              <Card.Title>Youth Football Camp</Card.Title>
+              <Card.Title className="card-header">
+                Youth Football Camp
+              </Card.Title>
               <Card.Text className="card-text">
                 This website hosts information for a youth football camp with
                 details such as instructors, frequently asked questions, and
@@ -64,7 +66,7 @@ export default function Work() {
             </Card.Body>
           </Card>
         </div>
-        <div className="row d-flex flex-row">
+        <div className="row">
           <Card className="work-card m-1 m-md-3">
             <Card.Img
               variant="top"
@@ -72,7 +74,7 @@ export default function Work() {
               className="card-img"
             />
             <Card.Body>
-              <Card.Title>Fitness Event</Card.Title>
+              <Card.Title className="card-header">Fitness Event</Card.Title>
               <Card.Text className="card-text">
                 This website gives details on a fitness event and allows you to
                 view location information, sponsors, and ticket pricing.
@@ -98,7 +100,7 @@ export default function Work() {
               className="card-img"
             />
             <Card.Body>
-              <Card.Title>Travel Agent</Card.Title>
+              <Card.Title className="card-header">Travel Agent</Card.Title>
               <Card.Text className="card-text">
                 This website is a landing page for a travel agency. The website
                 showcases testimonials from past clients, packages offered by

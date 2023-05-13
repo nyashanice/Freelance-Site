@@ -4,6 +4,9 @@
 
 .card-header {
     font-family: "Alice", serif;
+    background-color: white !important;
+    border-bottom: 0 !important;
+    padding-left: 0 !important;
 }
 
 .card-text {
@@ -21,34 +24,52 @@
     font-style: italic;
 }
 
-    .row {
+.row {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         }
     
-    .work-card {
-        width: 15rem;
-        margin: 10px;
+.work-card {
+        width: 95vw !important;
+        padding: 0 !important;
         }
     
-    .card-img {
-        width: 100%;
+.card-img {
+        width: 100vw;
         height: 15rem;
         }
 
-@media screen and (min-width: 576px) and (max-width: 1023px) {
-.work-card {
-        width: 20rem !important;
+    .container {
+        width: 100vw !important;
     }
 
-   
+@media screen and (min-width: 768px) {
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
-@media screen and (min-width: 1024px) {
+.work-card {
+    width: 40vw !important;
+}
+} 
+
+@media screen and (min-width: 2000px) {
     .work-card {
-            width: 28rem !important;
-        }
-    
-     
+        width: 40vw !important;
+    }
+
+    .card-text {
+        font-size: 40px;
+    }
+
+    .card-header {
+        font-size: 50px !important;
+    }
+
+    .card-btn {
+        font-size: 40px !important;
+    }
+   
 }
