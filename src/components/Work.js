@@ -8,7 +8,7 @@ export default function Work() {
   return (
     <div>
       <h1 className="text-center p-2 work-title">EXAMPLE WORK</h1>
-      <div className="container d-flex flex-wrap justify-content-center">
+      <div className="work-container d-flex flex-wrap justify-content-center">
         <div className="row">
           <Card className="work-card m-1 m-md-3">
             <Card.Img

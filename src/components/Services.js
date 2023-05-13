@@ -15,10 +15,10 @@ export default function Services() {
       <div className="text-center pb-4 services-text">
         If you have a question about something, please feel free to email me!
       </div>
-      <Container className="text-center">
+      <Container className="services-container text-center">
         <Row>
-          <Col>
-            <Card style={{ height: "65vh" }} className="services-card mb-5">
+          <Col className="services-col">
+            <Card className="services-card mb-5">
               <Card.Header as="h1" className="tier">
                 BASIC
               </Card.Header>
@@ -43,8 +43,8 @@ export default function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ height: "65vh" }} className="services-card mb-5">
+          <Col className="services-col">
+            <Card className="services-card mb-5">
               <Card.Header as="h1" className="tier">
                 STANDARD
               </Card.Header>
@@ -70,8 +70,8 @@ export default function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ height: "65vh" }} className="services-card mb-5">
+          <Col className="services-col">
+            <Card className="services-card mb-5">
               <Card.Header as="h1" className="tier">
                 PREMIUM
               </Card.Header>

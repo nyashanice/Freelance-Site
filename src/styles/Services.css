@@ -26,20 +26,48 @@
     font-size: 20px;
 }
 
+.services-card {
+    width: 95vw;
+    height: 70vh !important;
+  
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+}
+
+.services-col {
+display: flex;
+justify-content: center;
+}
+
 @media screen and (min-width: 2000px) {
     .service-list {
         font-size: 40px;
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
     .services-card {
-        height: 70vh !important;
+        width: 40vw;
+
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 575px) {
+@media screen and (min-width: 992px) {
+    .services-col {
+        width: 33vw;
+        margin: 0px;
+    }
     .services-card {
-        height: 80vh !important;
+        width: 25vw;
+        height: 65vh !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .services-card {
+       
     }
 }
