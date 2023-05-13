@@ -4,20 +4,18 @@ import "../styles/Banner.css";
 export default function Banner() {
   return (
     <div>
-      <img
-        src="../images/banner.gif"
-        width="100%"
-        height="500"
-        alt=""
-        className="banner-lg"
-      />
-      <img
-        src="../images/banner-md.gif"
-        alt=""
-        width="100%"
-        height="500"
-        className="banner-md"
-      />
+      <video autoPlay loop muted className="banner-576">
+        <source src="../images/banner-576.mp4" />
+      </video>
+      <video autoPlay loop muted className="banner-768">
+        <source src="../images/banner-768.mp4" />
+      </video>
+      <video autoPlay loop muted className="banner-992">
+        <source src="../images/banner-992.mp4" />
+      </video>
+      <video autoPlay loop muted className="banner-1200">
+        <source src="../images/banner-1200.mp4" />
+      </video>
     </div>
   );
 }

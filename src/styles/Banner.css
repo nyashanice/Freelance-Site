@@ -1,12 +1,41 @@
-.banner-md {
+.banner-768, .banner-992, .banner-1200 {
     display: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 575px) {
-    .banner-lg {
-            display: none;
-        }
-    .banner-md {
-            display: block;
-        }
+.banner-576 {
+    display: block;
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .banner-576 {
+        display: none;
+    }
+
+    .banner-768 {
+        display: block;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner-768 {
+        display: none;
+    }
+
+    .banner-992 {
+        display: block;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner-992 {
+        display: none;
+    }
+
+    .banner-1200 {
+        display: block;
+        width: 100vw;
+    }
 }
