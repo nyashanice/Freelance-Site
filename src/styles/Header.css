@@ -13,6 +13,44 @@ a:hover {
     font-style: italic !important;
 }
 
-.logo {
+.logo-576 {
     justify-content: start;
+    width: 50vw;
+}
+
+.logo-768, .logo-992, .logo-1200 {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+.logo-576 {
+    display: none;
+}
+
+.logo-768 {
+    display: block;
+    width: 30vw;
+}
+}
+
+@media screen and (min-width: 992px) {
+    .logo-768 {
+        display: none;
+    }
+
+    .logo-992 {
+        display: block;
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo-992 {
+        display: none;
+    }
+
+    .logo-1200 {
+        display: block;
+        width: 30vw;
+    }
 }

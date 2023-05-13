@@ -10,10 +10,24 @@ export default function Header() {
       <Navbar variant="light" expand="md">
         <Navbar.Brand>
           <img
-            src="../images/tfp_logo.png"
+            src="../images/logo-576.png"
             alt=""
-            style={{ width: "300px", height: "100px" }}
-            className="logo"
+            className="logo-576"
+          />
+          <img
+            src="../images/logo-768.png"
+            alt=""
+            className="logo-768"
+          />
+          <img
+            src="../images/logo-992.png"
+            alt=""
+            className="logo-992"
+          />
+          <img
+            src="../images/logo-1200.png"
+            alt=""
+            className="logo-1200"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
