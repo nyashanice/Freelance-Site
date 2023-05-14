@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@typeform/embed-react": "^2.21.0",
     "bootstrap": "^5.2.3",
+    "iframe-resizer-react": "^1.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
