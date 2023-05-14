@@ -1,5 +1,4 @@
 import React from "react";
-import { Widget } from "@typeform/embed-react";
 import IframeResizer from "iframe-resizer-react";
 import { useEffect } from "react";
 
@@ -11,23 +10,6 @@ export default function Form() {
       encodeURIComponent(window.location.href);
   }, []);
 
-  // useEffect(() => {
-  //   setTimeout(
-  //     () =>
-  //       IframeResizer(
-  //         {
-  //           heightCalculationMethod: "min",
-  //           sizeWidth: true,
-  //           sizeHeight: true,
-  //           log: false,
-  //           checkOrigin: false,
-  //         },
-  //         "#hectic-form"
-  //       ),
-  //     100
-  //   );
-  // }, []);
-
   const timeout = (e) => {
     e.preventDefault();
     setTimeout(() => {
@@ -36,11 +18,6 @@ export default function Form() {
   };
 
   return (
-    // <Widget
-    //   id="avcH5PZM"
-    //   style={{ width: "100%", height: "700px" }}
-    //   className="my-form"
-    // />
     <div>
       <script
         type="text/javascript"

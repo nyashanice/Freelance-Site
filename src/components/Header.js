@@ -9,63 +9,45 @@ export default function Header() {
     <header className="p-2">
       <Navbar variant="light" expand="md">
         <Navbar.Brand>
-          <img
-            src="../images/logo-576.png"
-            alt=""
-            className="logo-576"
-          />
-          <img
-            src="../images/logo-768.png"
-            alt=""
-            className="logo-768"
-          />
-          <img
-            src="../images/logo-992.png"
-            alt=""
-            className="logo-992"
-          />
-          <img
-            src="../images/logo-1200.png"
-            alt=""
-            className="logo-1200"
-          />
+          <img src="../images/logo-576.png" alt="" className="logo-576" />
+          <img src="../images/logo-768.png" alt="" className="logo-768" />
+          <img src="../images/logo-992.png" alt="" className="logo-992" />
+          <img src="../images/logo-1200.png" alt="" className="logo-1200" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="background">
             <Nav.Item>
-              <Nav.Link>
-                <Link to="/" style={{ textDecoration: "none" }}>
-                  Home
-                </Link>
+              <Nav.Link as={Link} style={{ textDecoration: "none" }} to="/">
+                Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link>
-                <Link to="/about" style={{ textDecoration: "none" }}>
-                  About
-                </Link>
+              <Nav.Link
+                as={Link}
+                style={{ textDecoration: "none" }}
+                to="/about"
+              >
+                About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link>
-                <Link to="/work" style={{ textDecoration: "none" }}>
-                  My Work
-                </Link>
+              <Nav.Link as={Link} style={{ textDecoration: "none" }} to="/work">
+                My Work
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link>
-                <Link to="/services" style={{ textDecoration: "none" }}>
-                  Services
-                </Link>
+              <Nav.Link
+                as={Link}
+                style={{ textDecoration: "none" }}
+                to="/services"
+              >
+                Services
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link>
-                <Link to="/book" style={{ textDecoration: "none" }}>
-                  Book
-                </Link>
+              <Nav.Link as={Link} style={{ textDecoration: "none" }} to="/book">
+                Book
               </Nav.Link>
             </Nav.Item>
           </Nav>
